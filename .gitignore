@@ -1,0 +1,27 @@
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Ignorar dependencias y entornos virtuales
+__pycache__/
+*.py[cod]
+venv/
+virtualenv/
+env/
+*.sqlite3
+
+# Ignorar archivos de logs y caché
+*.log
+logs/
+debug.log
+
+# Ignorar configuraciones de IDEs y editores
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Ignorar archivos de despliegue en Render
+start.sh
