@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
-# print("database",DATABASE_URL)
+print("database")
 
 #Routers
 
